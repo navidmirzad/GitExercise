@@ -7,6 +7,7 @@ public class SuperGreeter {
         System.out.println("Det virker!");
         greet();
         askAboutAge();
+        AJTracey();
     }
 
     public void greet() {
@@ -19,6 +20,12 @@ public class SuperGreeter {
         System.out.println("Hvor gammel er du? ");
         int alder = sc.nextInt();
         System.out.println(alder);
+    }
+
+    public void AJTracey() {
+        System.out.println("ASK ABOUT ME I DID IT" + " " + "LET MAN STAY ON MY SOFA I DID IT");
+        String whoIsAjTracey = sc.next();
+        System.out.println(whoIsAjTracey);
     }
 
     public static void main (String[] args) {
